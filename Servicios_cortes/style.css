@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #000000; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    text-align: center;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  header img {
+    max-width: 50px; 
+    max-height: 50px;
+    height: auto; 
+  }
+  
+  .imagen-centro {
+    max-width: 500px; 
+  }
+ .contenido {
+  display: flex;
+  font-size: 100px; /* Cambiar el tamaño de los textos h2 */
+
+ }
+ .contenido section {
+  margin-bottom: 100px; /* Mover los textos un poco más abajo */
+  text-align: center; /* Centrar el texto en todas las secciones */
+  margin-right: 200px; /* Ajusta el espacio entre los botones */
+  font-size: 26px; /* Cambiar el tamaño de los textos h2 dentro de .contenido */
+
+ }
+ #estilos {
+  margin-left: 270px;
+ }
+ #barba h2 {
+  margin-left: auto; /* Mover el texto "Arreglo de barba" más al centro */
+  margin-right: auto;
+  
+ }
+ #otros h2 {
+  margin-right: auto; /* Mover el texto "Otros servicios" más a la derecha */
+ }
+
+
+ .contenido button {
+  background-color: #fff; /* Color de fondo del botón */
+  color: black; /* Color del texto */
+  border: none;
+  padding: 10px 20px; /* Ajusta el espacio interno del botón */
+  cursor: pointer;
+  font-size: 30px; /* Cambiar el tamaño de los botones dentro de .contenido */
+  font-weight: bold; /* Esto hace que el texto esté en negrita */
+  padding-left: 10%; /* Ajusta el espacio a la izquierda */
+  padding-right: 10%; /* Ajusta el espacio a la derecha */
+
+
+ }
+
+ .contenido button:hover {
+  text-decoration: none; /* Elimina el subrayado predeterminado del texto */
+  border-bottom: 3px solid red; /* Añade una línea roja debajo del texto al pasar el mouse */
+}
+#estilos {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las imágenes */
+  align-items: flex-start; /* Alinea las imágenes hacia arriba */
+  padding-left: 10%; /* Ajusta el espacio a la izquierda */
+  padding-right: 10%; /* Ajusta el espacio a la derecha */
+  flex-wrap: wrap; /* Permite que las imágenes se envuelvan */
+}
+
+.imagenes img {
+  width: 100%; /* Ancho deseado para las imágenes */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin: 15px; /* Espacio entre las imágenes */
+}
+
+.contenedor-imagen {
+  position: relative;
+  flex-basis: calc(33.33% - 40px); /* Ancho base de cada imagen (33.33% para 3 imágenes por fila) */
+  margin-bottom: 20px; /* Espacio entre las filas */
+  margin-right: 20px; /* Espacio entre las imágenes */
+}
+
+@media (max-width: 800px) {
+  .contenedor-imagen {
+    flex-basis: calc(50% - 40px); /* Ancho base de cada imagen en pantallas más pequeñas (2 imágenes por fila) */
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor-imagen {
+    flex-basis: calc(100% - 40px); /* Ancho base de cada imagen en pantallas aún más pequeñas (1 imagen por fila) */
+  }
+}
+
+.texto-superpuesto {
+  position: absolute;
+  bottom: 20px; /* Mueve el texto hacia arriba */
+  right: -14px;; /* Ajusta la posición del texto a la derecha */
+  width: 100%; /* Modifica el ancho del texto */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 0 auto; /* Centra horizontalmente el texto */
+  border-radius: 5px; /* Añade esquinas redondeadas al borde del recuadro */
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+  
+  
