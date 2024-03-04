@@ -1,0 +1,234 @@
+
+header {
+    background-color: #000000;
+    color: black;
+    padding: 50px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conte-1{
+    background-color: black;
+    display: flex;
+    justify-content: baseline;
+    padding: 20px;
+    
+}
+
+button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btm {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+
+}
+
+i {
+    padding: 20px;
+}
+
+button img {
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 27, 27);
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 0px;
+}
+
+.title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  
+}
+
+p {
+    margin: 5px 0;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: #ee0303;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btm-2 {
+    background-color: #000000;
+    color: white;
+    padding: 25px 100px;
+}
+
+h1, h2 {
+    color: #000000;
+    margin: 10px 0;
+}
+
+
+.space {
+    padding: 20px;
+}
+
+.fondo {
+    background-image: url(/views/img/imagen_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 200px;
+
+}
+
+.f-txt{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+li {
+    text-align: center;
+}
+
+.fondo-1 {
+    background-image: url(/views/img/imagen_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 200px;
+}
+
+.color-txt {
+    color: rgb(247, 7, 7);
+    border: #f00909;
+
+}
+
+div {
+    text-align: center;
+}
+
+.Cont-Product {
+    width: auto;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;  
+    height: 400px;
+    width: 500px;
+}
+
+.contenedor1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    height: 400px;
+    width: 500px;
+
+}
+
+
+
+.f-n {
+    background-color: black;
+}
+
+iframe {
+    padding: 20px;
+}
+
+/*Estilo para carrousel*/
+#conteItemsCarrusel {
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.itemCarrusel {
+    height: 500px;
+    position: relative;
+}
+
+.tarjetaCarrusel {
+    background-color: rgb(126, 233, 233);
+    height: 100%;
+}
+  
+.flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#tarjetaCarrusel-1 {
+    background-color: rgb(255, 0, 0);
+}
+
+#tarjetaCarrusel-2 {
+    background-color: rgb(255, 0, 0);
+}
+
+#tarjetaCarrusel-3 {
+    background-color: rgb(255, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: rgb(255, 255, 255);
+}
+
+.img{
+    height: 80%;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+}
+
+.img-pro {
+    width: 80%;
+    height: 80%;
+}
+
+.img-corte{
+    width: 500px;
+    height: 500px;
+}
+
+.PD {
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-image: url(/views/img/imagen_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px;
+    color: rgb(245, 245, 245);
+    text-align: right;
+}
