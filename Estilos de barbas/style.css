@@ -1,0 +1,128 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header {
+    background-color: #000000; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    text-align: center;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  header img {
+    max-width: 50px; 
+    max-height: 50px;
+    height: auto; 
+  }
+  
+  .imagen-centro {
+    max-width: 500px; 
+  }
+
+/* Estilos para el contenedor de títulos */
+.contenido {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para resaltar el texto */
+    color: #000000; /* Texto negro para contrastar */
+    margin-top: 20px; /* Añade margen superior para separar del encabezado */
+    display: flex; /* Configura el contenedor como un flex container */
+    justify-content: space-around; /* Espaciado entre títulos */
+    align-items: center; /* Centra verticalmente los títulos */
+}
+
+/* Estilos para los títulos */
+h1, h2 {
+    margin: 0; /* Elimina el margen predeterminado */
+    font-size: 24px; /* Establece el tamaño de letra deseado */
+}
+
+/* Estilos para el tercer título con subrayado rojo */
+.subrayado-rojo {
+    margin: 0;
+    font-size: 24px;
+    text-decoration: underline red; /* Subrayado rojo */
+}
+
+/* Estilos para el contenedor de las imágenes */
+.imagenes-contenedor {
+    display: flex; /* Configura el contenedor como un flex container */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    margin-top: 150px; /* Añade margen superior para separar de los títulos */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajusta el valor según sea necesario para reducir el espacio */
+}
+
+/* Estilos para las imágenes */
+.imagenes-contenedor img {
+    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 60px; /* Añade un margen entre las imágenes */
+}
+
+
+/* Estilos para el botón rojo */
+button {
+    color: white;
+    background-color: #ee0303;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btm-2 {
+    background-color: #000000;
+    color: white;
+    padding: 25px 100px;
+}
+
+
+/* Estilos para el contenedor de las imágenes */
+.imagenes-contenedor {
+    display: flex; /* Configura el contenedor como un flex container */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    margin-top: 150px; /* Añade margen superior para separar de los títulos */
+}
+
+/* Estilos para las imágenes */
+.imagenes-contenedor img {
+    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 60px; /* Añade un margen entre las imágenes */
+}
+
+/* Estilos para el contenedor de las imágenes */
+.imagenes-contenedor_2 {
+    display: flex; /* Configura el contenedor como un flex container */
+    justify-content: space-between; /* Centra las imágenes horizontalmente */
+    margin-top: 150px; /* Añade margen superior para separar de los títulos */
+}
+
+/* Estilos para las imágenes */
+.imagenes-contenedor_2 img {
+    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 60px; /* Añade un margen entre las imágenes */
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Ajusta el valor según sea necesario para reducir el espacio */
+}
+
+footer {
+  background-image: url(img_footer.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 100px;
+  color: rgb(245, 245, 245);
+  text-align: right;
+  height: 50px;
+}
+
